@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Обо мне</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        background-color: #101010;
+        color: white;
+        padding: 20px;
+    }
+
+    .inner-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navigation{
+        height: 100%;
+    }
+
+    .navigation a{
+        height: 100%;
+        display: table;
+        float: left;
+        padding: 0px 20px;
+        background-color: #101010;
+    }
+
+    .navigation a li{
+        vertical-align: middle;
+        display: table-cell;
+        font-size: 20px;
+        color: white;
+    }
+
+    .navigation a:hover{
+        background-color: gray;
+        color: #101010;
+    }
+
+    .content {
+        padding: 30px 200px;
+    }
+
+    .description-image {
+        width: 600px;
+        height: 600px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .description-text {
+        padding: 20px;
+        font-family: Inter, sans-serif;
+        font-size: 18px;
+    }
+</style>
+<body>
+<div class="header">
+    <div class="inner-header">
+        <div class="logo-container">
+            <h1>Моё хобби</h1>
+        </div>
+
+        <ul class="navigation">
+            <a href="index.html"><li>Главная</li></a>
+            <a href="#"><li>Обо мне</li></a>
+            <a href="contacts.html"><li>Обратная связь</li></a>
+        </ul>
+    </div>
+</div>
+<div class="content">
+    <h1 class="hobbies-name">Фронтенд-разработчик</h1>
+    <hr>
+    <div class="description">
+        <img class="description-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBex2z4ivTNJk0xg2EXYxjj2JJ5r6bRu4-aw&usqp=CAU" alt="image">
+        <div class="description-text">
+            Увлекаюсь фронтенд-разработкой! Изучаю html, css и javascript. Желаю стать хорошим
+            специалистом в данном направлении. Прохожу курс для развития своих навыков.
+        </div>
+    </div>
+</div>
+</body>
+</html>
